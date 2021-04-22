@@ -6,8 +6,8 @@ public class Pojazd extends Maszyna{
     private int nrPojazdu;
     private static int maxLiczbaPojazdow;
 
-    public Pojazd(String marka, String nazwa, double pojemnoscSilnika, rodzajSilnika rodzajSilnika,double moc,double momentObrotowy,int nrPojazdu) {
-        super(marka, nazwa, pojemnoscSilnika, rodzajSilnika);
+    public Pojazd(String marka, String nazwa, double pojemnoscSilnika, rodzajSilnika RodzajSilnika,double moc,double momentObrotowy,int nrPojazdu) {
+        super(marka, nazwa, pojemnoscSilnika, RodzajSilnika);
         this.moc=moc;
         this.momentObrotowy=momentObrotowy;
         maxLiczbaPojazdow++;

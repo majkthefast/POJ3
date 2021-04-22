@@ -5,6 +5,13 @@ public abstract class Maszyna {
     protected String nazwa;
     protected double pojemnoscSilnika;
 
+    public Maszyna(String marka, String nazwa, double pojemnoscSilnika, rodzajSilnika rodzajSilnika) {
+        this.marka=marka;
+        this.nazwa=nazwa;
+        this.pojemnoscSilnika=pojemnoscSilnika;
+        this.RodzajSilnika=rodzajSilnika;
+    }
+
     protected enum rodzajSilnika {
         diesel,
         benzynowy,
@@ -12,7 +19,9 @@ public abstract class Maszyna {
         hybrydowy,
         elektryczny;
     }
+    protected rodzajSilnika RodzajSilnika;
 }
+
     /*public String getMarka() {
         return marka;
     }

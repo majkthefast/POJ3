@@ -3,8 +3,8 @@ package zadanie;
 public class Pojazd extends Maszyna{
     protected double moc;
     protected double momentObrotowy;
-    private int nrPojazdu;
-    private static int maxLiczbaPojazdow;
+    protected int nrPojazdu;
+    protected static int maxLiczbaPojazdow;
 
     public Pojazd(String marka, String nazwa, double pojemnoscSilnika, rodzajSilnika RodzajSilnika,double moc,double momentObrotowy,int nrPojazdu) {
         super(marka, nazwa, pojemnoscSilnika, RodzajSilnika);

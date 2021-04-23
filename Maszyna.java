@@ -17,7 +17,8 @@ public abstract class Maszyna {
         benzynowy,
         lpg,
         hybrydowy,
-        elektryczny;
+        elektryczny,
+        fizyczny;
     }
     protected rodzajSilnika RodzajSilnika;
 }
